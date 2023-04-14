@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pylab
 
-#from windrose import WindroseAxes
+from windrose import WindroseAxes
 from datetime import datetime
 from scipy.ndimage import label, median_filter, binary_opening
 from skimage.morphology import square, cube
